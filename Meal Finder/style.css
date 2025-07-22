@@ -10,6 +10,15 @@
     padding: 0 67px;
   
 }
+.navbar .navBarlist{
+  display: flex;
+}
+.navBarlist img{
+  width: 50px;
+  margin: 10px 0px 0px 0px;
+  border-radius: 100px;
+  color: white;
+}
 .navbar a{
   text-decoration: none;
   color: white;
@@ -32,14 +41,17 @@
 
 @media (min-width: 320px) and (max-width: 480px){
     .navbar{
-      width: 57%;
-      justify-content: space-between;
-      align-items: center;
-      adding: 0 36px;
+      width: 92%;
+      padding: 0 5px;
+      border: 3px solid red;
+      
+      
     }
-}
-@media (min-width: 1025px) and (max-width: 1280px){
-    .navbar{
+    .navBarlist .hamburger{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-between;
     }
 }
 .header {
@@ -51,36 +63,63 @@
     align-items: center;
     text-align: center;
     color: white;
+    border: 2px solid red;
+    flex-direction: column;
 }
-input{
+.search-container {
+  display: flex;              /* Make children align side by side */
+  align-items: center;        /* Align items vertically center */
+  gap: 10px;                  /* Optional spacing between input and image */
+  margin-bottom: 20px;        /* Spacing before the .about section */
+}
+
+.search-container input {
   font-size: 25px;
   border-radius: 18px;
-  padding: 3px;
+  padding: 8px 12px;
   text-align: center;
   color: whitesmoke;
+  border: 1px solid white;
+  flex: 1; /* Allow input to grow and fill space */
+}
+
+.search-container img {
+  width: 45px;
+  height: 45px;
+  border: 2px solid white;
+  border-radius: 30px;
 }
 @media (min-width: 320px) and (max-width: 480px){
   .header{
-      width: 100% ;
+      width: 96% ;
+    
+      
     }
-    input{
-     font-size: 20px;
-     border-radius: 10px;
-     padding: 2px;
-     text-align: center;
-     color: whitesmoke;
+    .search-container{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    .search-container input{
+      font-size: 20px;
+      border-radius: 18px;
+      padding: 8px 12px;
+      text-align: center;
+      color: whitesmoke;
+      border: 1px solid white;
+      flex: 1; 
+    }
 }
-  }
+ 
 @media (min-width: 1025px) and (max-width: 1280px){
-    .header{
-            
-    }
+
 }
 .heading {
   display: inline-block; 
   width: 60px;
   border-bottom: 5px solid rgb(190, 13, 13);
   text-decoration: none;
+  border: 2px solid red;
 }
 .categorieslist{
   width: 100%;
@@ -91,6 +130,7 @@ input{
   flex-wrap: wrap;
   gap: 10px;
   background-color: whitesmoke;
+  border: 2px solid red;
 }
 .categories{
   width: 15%;
@@ -115,8 +155,7 @@ input{
 }
 @media (min-width: 320px) and (max-width: 480px){
   .categorieslist{
-   flex-wrap: wrap;
-   width: 100%;
+   width: 96%;
     }
     .categories{
       width: 100%;
