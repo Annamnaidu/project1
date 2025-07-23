@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 69px;
+    padding: 0 67px;
   
 }
 .navbar .navBarlist{
@@ -42,9 +42,7 @@
 @media (min-width: 320px) and (max-width: 480px){
     .navbar{
       width: 92%;
-      padding: 0 5px;
-      
-      
+      padding: 0 6px;
     }
     .navBarlist .hamburger{
       display: flex;
@@ -56,7 +54,7 @@
 .header {
     width: 100%;
     height: 400px;
-    background-image: url(./headerimage.jpg);
+    background-image: url(../headerimage.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,8 +87,7 @@
 }
 @media (min-width: 320px) and (max-width: 480px){
   .header{
-     width: 92%;
-      padding: 0 5px;
+      width: 96% ; 
     }
     .search-container{
       display: flex;
@@ -111,77 +108,66 @@
 @media (min-width: 1025px) and (max-width: 1280px){
 
 }
-.VegetarianContent{
-  width: 100%;
-    height: 10%;
+.navBar-baingan{
+    width: 95%;
+    margin-top: 50px;
+    background-color: orangered;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
-.content{
-    margin: 50px 50px 20px 50px;
-    border: 2px solid orange;
-    padding: 11px;
+.navBar-baingan img{
+    background-color: orangered;
+    width: 80px;
+    height: 40px;
+    border-radius: 100%;
+    color: orangered;
+    border: 15px solid orangered;
 }
 @media (min-width: 320px) and (max-width: 480px){
-  .VegetarianContent{
-    width: 92%;
-    padding: 0 5px;
-
+  .navBar-baingan{
+   width: 95%;
+    }
+    .categories{
+      width: 100%;
     }
 }
 @media (min-width: 1025px) and (max-width: 1280px){
-    .VegetarianContent{
-        width: 100%;    
+    .navBar-baingan{
+            
     }
 }
 .heading {
-  display: inline-block;
-  padding: 0px 0px 0px 50px;
-}
-.line{
+  display: inline-block; 
   width: 50px;
-  border: 3px solid rgb(190, 13, 13);
-  background-color: whitesmoke;
+  border-bottom: 5px solid orangered;
   text-decoration: none;
 }
-@media (min-width: 320px) and (max-width: 480px){
-    .heading{
-    width: 79%;
-  
-
-    }
+.baigan-content{
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-@media (min-width: 1025px) and (max-width: 1280px){
-    .heading{
-        width: 96%;    
-    }
+.baigan-info{
+    width: 90%;
+    display: flex;
+    padding: 30px 30px;
+    gap: 50px;
+    background-color: white;
 }
-.mealsDetailsList{
-  width: 96%;
-  display: flex;
-  padding: 0px 20px 0px 40px;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 15px;
-}
-.mealsDetails{
-  width: 18%;
-  border: 2px solid white;
-  margin-top: 30px;
- background-color: whitesmoke;
-
-}
-@media (min-width: 320px) and (max-width: 480px){
-  .mealsDetailsList{
-   width: 80%;
-   padding: 25px;
-}
-.mealsDetails{
+.image-baingan img{
  width: 100%;
 }
+.baingan-details{
+  margin-top: 25px;
+  display: inline-block;
+  height: 45px; 
+  width: 100%;
+  border-bottom: 3px solid orangered;
+  text-decoration: none; 
+  color: orangered; 
+
 }
-@media (min-width: 1025px) and (max-width: 1280px){
-    .heading{
-        width: 96%;    
-    }
-}
+
