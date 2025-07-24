@@ -170,4 +170,60 @@
   color: orangered; 
 
 }
+.category-veg{
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  margin-bottom:-3%;
+}
+.category-veg h3{
+  color: black;
+  font-weight: bold;
+}
+.category-veg h4{
+  color: black;
+  font-weight: lighter;
+  justify-content: space-evenly;
+  width: 100px;
+}
+.category-veg h5 {
+  width: 50px;
+  padding: 2px;
+  display: flex;
+  border: 2px solid orangered;
+  border-radius: 5px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.baigan-content .ingred-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60px;
+  padding-right: 30px;
+}
+.ingred-list{
+  width: 70%;
+  background-color: orangered;
+}
+.ingred-list ol {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  list-style-position: inside; /* keeps number inside the box */
+  padding: 0;
+}
+
+.ingred-list li {
+  width: 150px; /* adjust based on design */
+  text-align: center;
+}
+.ingred-list h3{
+  color: white;
+}
+
+
 
